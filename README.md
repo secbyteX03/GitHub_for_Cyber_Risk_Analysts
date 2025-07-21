@@ -91,7 +91,13 @@ graph TD
    ```
 
 ---
+## 🔎 Live Secret Scan Demo
+[![Run in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Instant_Demo-blue?style=for-the-badge)](https://github.com/codespaces/new?machine=basicLinux32gb&repo=your-repo&devcontainer_path=.devcontainer%2Fdevcontainer.json)
 
+### One-click scanning environment
+curl -sL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/docker-compose.yml | docker-compose -f - up <br>
+<br>
+Experience live secret scanning without local setup. Click the badge above to launch a pre-configured GitHub Codespace.
 ##### **Task 2: Audit Dependencies**  
 *Find vulnerable libraries before they're exploited*  
 
