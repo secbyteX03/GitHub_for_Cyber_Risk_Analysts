@@ -1,5 +1,7 @@
-### **GitHub for Cyber Risk Analysts: The Ultimate Beginner's Guide**  
-*Transform GitHub from a developer tool into your early-warning threat intelligence system*  
+# 🔒 GitHub Threat Intelligence for Cyber Risk Analysts
+[![GitHub Security](https://img.shields.io/badge/GitHub-Security_Guide-blue)](https://github.com/features/security)
+[![Dependabot Enabled](https://img.shields.io/badge/Dependabot-Enabled-brightgreen)]() <br>
+Transform GitHub into your organization's early-warning threat intelligence system
 
 ---
 
