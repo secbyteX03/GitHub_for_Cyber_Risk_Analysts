@@ -5,10 +5,14 @@ Transform GitHub into your organization's early-warning threat intelligence syst
 
 ---
 
-#### **1. Why GitHub is a Cyber Risk Analyst's Secret Weapon**  
-**The Risk Landscape**:  
-![GitHub Risk Exposure](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi617tOhQfCEgCMHVT1sj1jhauvd-GbvTjK7uYMiy9REowwnutaB-EC67GY8ffjMQTcy5AH6K5mHYu3QyVuHxbz3Na4dnumV_fclLMqupV5SVvGdyclZ5RBSbVcCJthDvIeEIPV9e7CFCO61tU0jeac0XHJnkpkE5omYj8w6ex4Dm2iuc8giJwO-1j7IJU4/s728-rw-e365/git.png)  
-
+## 1. Why GitHub is a Cyber Risk Analyst's Secret Weapon  
+### 🌐 Threat Landscape
+```mermaid
+graph TD
+   A[Exposed Credentials] --> B(Cloud Compromise)
+   C[Vulnerable Dependencies] --> D(Supply Chain Attack)
+   E[Public Repositories] --> F(Reconnaissance)
+```
 
 - **Code = Risk Surface**:  
   Every repository is a potential attack vector:  
