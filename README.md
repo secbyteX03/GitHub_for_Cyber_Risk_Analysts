@@ -108,6 +108,22 @@ Experience live secret scanning without local setup. Click the badge above to la
 | **High**     | Spring4Shell (CVE-2022-22965) | Server compromise    |  
 | **Medium**   | jQuery XSS (CVE-2020-11022) | Client-side attacks  |  
 
+### Critical CVE Timeline
+```mermaid
+gantt
+    title Critical CVE Discovery to Patch Timeline
+   dateFormat  YYYY-MM-DD
+    section Log4Shell
+    Disclosure       : 2021-12-09, 1d
+    Exploit POC      : 2021-12-10, 2d
+    Widespread Attacks : 2021-12-12, 5d
+    section Spring4Shell
+    Disclosure       : 2022-03-30, 1d
+    Exploit POC      : 2022-03-31, 1d
+    Widespread Attacks : 2022-04-01, 3d
+```
+
+
 **Visual Guide**:  
 ```mermaid
 graph TD
