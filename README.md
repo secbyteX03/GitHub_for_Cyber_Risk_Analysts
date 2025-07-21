@@ -112,15 +112,24 @@ Experience live secret scanning without local setup. Click the badge above to la
 ```mermaid
 gantt
     title Critical CVE Discovery to Patch Timeline
-   dateFormat  YYYY-MM-DD
+    dateFormat  YYYY-MM-DD
+    axisFormat %b %d
+    todayMarker off
+    
     section Log4Shell
-    Disclosure       : 2021-12-09, 1d
-    Exploit POC      : 2021-12-10, 2d
-    Widespread Attacks : 2021-12-12, 5d
+    Disclosure       :crit, 2021-12-09, 1d
+    Exploit POC      :crit, 2021-12-10, 2d
+    Widespread Attacks :crit, 2021-12-12, 5d
+    
     section Spring4Shell
-    Disclosure       : 2022-03-30, 1d
-    Exploit POC      : 2022-03-31, 1d
-    Widespread Attacks : 2022-04-01, 3d
+    Disclosure       :high, 2022-03-30, 1d
+    Exploit POC      :high, 2022-03-31, 1d
+    Widespread Attacks :crit, 2022-04-01, 3d
+    
+    section Heartbleed
+    Disclosure       :crit, 2014-04-07, 1d
+    Exploit POC      :high, 2014-04-08, 1d
+    Widespread Attacks :crit, 2014-04-09, 7d
 ```
 
 
